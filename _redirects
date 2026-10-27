@@ -1,0 +1,6 @@
+# Netlify: let the in-app reader open book PDFs. These paths fetch the files from
+# the sites that host them and serve them from this site, which browsers allow.
+/pdf/kalamullah/*   https://www.kalamullah.com/Books/:splat                               200
+/pdf/ia/sira/*      https://ia903208.us.archive.org/11/items/AlSiraAlNabawiyya4VolumeSet/:splat  200
+/pdf/ia/guidance/*  https://ia601602.us.archive.org/31/items/GuidanceToTheUncertain/:splat     200
+/pdf/archive/*      https://archive.org/download/:splat                                    200
